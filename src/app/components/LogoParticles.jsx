@@ -85,7 +85,7 @@ export default function LogoParticlesCanvas({ onLoadComplete }) {
   const [points, setPoints] = useState([]);
 
   useEffect(() => {
-    generateParticlesFromImage('/logo.png', 5).then((pts) => {
+    generateParticlesFromImage('/meghanaportfolio/logo.png', 5).then((pts) => {
       setPoints(pts);
       if (onLoadComplete) onLoadComplete(); // ✅ Callback here
     });

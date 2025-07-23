@@ -19,8 +19,8 @@ function getCornerPositions(camera, size) {
   const halfH = visibleHeight / 2;
 
   return {
-    topLeft: [-halfW + 1.25, halfH - 1, 0],
-    topRight: [halfW - 1.25, halfH - 1, 0],
+    topLeft: [-halfW + 1, halfH - 1, 0],
+    topRight: [halfW - 1, halfH - 1, 0],
     bottomLeft: [-halfW + 1.25, -halfH + 1, 0],
     bottomRight: [halfW - 1.25, -halfH + 1, 0],
   };

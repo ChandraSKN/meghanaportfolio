@@ -26,11 +26,6 @@ export default function Home() {
 
   return (
     <main className="absolute w-full min-h-screen flex items-center justify-center text-white">
-      {loading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#FBEAEA] z-50">
-          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-indigo-500" />
-        </div>
-      )}
       <BackgroundGradientAnimation className="w-full flex flex-col items-center justify-center px-4 py-12 md:py-24 pb-24  max-h-screen sm:overflow-visible">
         {/* Hero Content */}
         <div className="w-full max-w-4xl flex flex-col items-center text-center">
